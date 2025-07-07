@@ -107,8 +107,8 @@ WHERE department_id = '2' AND gender = 2;
 SELECT p.name, p.department_id, r.content
 FROM people p
 INNER JOIN reports r
-  ON p.person_id = r.person_id;
-  
+ON p.person_id = r.person_id;
+
 -- Q11
 SELECT p.name
 FROM people p
